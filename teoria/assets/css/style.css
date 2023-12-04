@@ -1,22 +1,20 @@
 @charset "UTF-8";
-
-.netflix{padding:-50px;
-
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  margin: 0 ;
+  margin: 0;
   background-color: #000;
 }
 
 h1, .h1 {
   font-family: Arial;
   color: red;
+  font-size: 18px;
 }
+
+
 
 .wrapper {
   display: grid;
@@ -24,8 +22,6 @@ h1, .h1 {
   overflow: hidden;
   scroll-behavior: smooth;
 }
-
-section div{margin: 20px 0;width: 105%;}
 .wrapper section {
   width: 100%;
   position: relative;
@@ -34,7 +30,7 @@ section div{margin: 20px 0;width: 105%;}
   margin: 20px 0;
 }
 .wrapper section .item {
-  padding: 0 4px;
+  padding: 0 2px;
   transition: 250ms all;
 }
 .wrapper section .item:hover {

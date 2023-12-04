@@ -6,6 +6,12 @@
 $itemGrow: 1.2;
 $duration: 250ms;
 
+
+p{font-size: 18px;}
+
+
+h1{font-size: 18px;}
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,6 +19,9 @@ html {
 body {
   margin: 0;
   background-color: #000;
+
+  padding-left: 0;
+  padding-right: 0;
 }
 
 h1 {
