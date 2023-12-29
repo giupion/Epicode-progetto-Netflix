@@ -80,14 +80,16 @@ h1 {
   }
 }
 
+
+
 #netflix{height:48px;
  margin-left:-10px;}
 
 
-$primary:yellow;
+$dark:#000000;
 
-$theme-colors:map-merge($theme-colors,("primary":$primary));
- 
+$theme-colors:map-merge($theme-colors,("dark":$dark));
+
 
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 
