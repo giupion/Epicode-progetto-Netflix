@@ -77,6 +77,22 @@ h1, .h1 {
   background-color: #fff;
 }
 
+li a {
+  color: white;
+}
+
+h1, .h1 {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
 li {
   list-style-type: none;
 }
