@@ -89,6 +89,10 @@ h1 {
  #search{
 background-color: #fff;}
 
+li {
+  list-style-type: none;
+}
+
 $dark:#000000;
 
 $theme-colors:map-merge($theme-colors,("dark":$dark));

@@ -77,6 +77,10 @@ h1, .h1 {
   background-color: #fff;
 }
 
+li {
+  list-style-type: none;
+}
+
 #navbarNavDarkDropdown {
   margin-left: 40px;
 }
