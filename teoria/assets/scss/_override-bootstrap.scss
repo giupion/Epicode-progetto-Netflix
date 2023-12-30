@@ -86,6 +86,9 @@ h1 {
  margin-left:-10px;}
 
 
+ #search{
+background-color: #fff;}
+
 $dark:#000000;
 
 $theme-colors:map-merge($theme-colors,("dark":$dark));

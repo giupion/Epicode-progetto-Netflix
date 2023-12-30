@@ -73,6 +73,10 @@ h1, .h1 {
   margin-left: -10px;
 }
 
+#search {
+  background-color: #fff;
+}
+
 #navbarNavDarkDropdown {
   margin-left: 40px;
 }
