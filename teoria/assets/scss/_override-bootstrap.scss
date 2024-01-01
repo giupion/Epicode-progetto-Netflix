@@ -108,6 +108,8 @@ $theme-colors:map-merge($theme-colors,("dark":$dark));
 
 #navbarNavDarkDropdown{margin-left: 40px;}
 
+p{font-size:15px;}
+
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 
 
