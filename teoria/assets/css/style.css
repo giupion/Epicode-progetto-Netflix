@@ -97,6 +97,11 @@ li {
   list-style-type: none;
 }
 
+.movie-cover {
+  transition: 0.3s;
+  opacity: 0.7;
+}
+
 #navbarNavDarkDropdown {
   margin-left: 40px;
 }
