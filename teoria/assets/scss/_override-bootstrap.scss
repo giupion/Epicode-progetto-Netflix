@@ -132,8 +132,14 @@ p{font-size:15px;}
 
 @media (min-width: 950px){
   .griglia1{display: flex;
-    
   }}
+
+  @media (min-width: 950px){
+    .griglia1{display: flex;
+    }}
+  
+
+
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 
 
