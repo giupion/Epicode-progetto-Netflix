@@ -144,10 +144,12 @@ $form-check-transition:                   null;
 
 $form-check-input-active-filter:          brightness(90%);
 
+$input-bg:$white;
+
 $form-check-input-bg:                     $input-bg;
 $form-check-input-border:                 1px solid rgba($white, .50);
-$form-check-input-border-radius:          .25em;
-$form-check-radio-border-radius:          50%;
+$form-check-input-border-radius:          0;
+$form-check-radio-border-radius:         0;
 $form-check-input-focus-border:           $input-focus-border-color;
 $form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow;
 
@@ -172,6 +174,8 @@ $form-check-btn-check-disabled-opacity:    $btn-disabled-opacity;
 
 $form-check-inline-margin-end:    1rem;
 
+
+.maturity{background-color:rgb(33, 32, 32)}
 
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 

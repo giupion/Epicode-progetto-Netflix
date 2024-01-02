@@ -130,6 +130,10 @@ p {
     display: flex;
   }
 }
+.maturity {
+  background-color: rgb(33, 32, 32);
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -2245,7 +2249,7 @@ progress {
   line-height: 1.5;
   color: var(--bs-body-color);
   appearance: none;
-  background-color: var(--bs-body-bg);
+  background-color: #fff;
   background-clip: padding-box;
   border: var(--bs-border-width) solid var(--bs-border-color);
   border-radius: var(--bs-border-radius);
@@ -2469,7 +2473,7 @@ textarea.form-control-lg {
 }
 
 .form-check-input {
-  --bs-form-check-bg: var(--bs-body-bg);
+  --bs-form-check-bg: #fff;
   flex-shrink: 0;
   width: 2em;
   height: 2em;
@@ -2485,10 +2489,10 @@ textarea.form-control-lg {
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
-  border-radius: 0.25em;
+  border-radius: 0;
 }
 .form-check-input[type=radio] {
-  border-radius: 50%;
+  border-radius: 0;
 }
 .form-check-input:active {
   filter: brightness(90%);
@@ -2728,7 +2732,7 @@ textarea.form-control-lg {
   z-index: -1;
   height: 1.5em;
   content: "";
-  background-color: var(--bs-body-bg);
+  background-color: #fff;
   border-radius: var(--bs-border-radius);
 }
 .form-floating > .form-control:-webkit-autofill ~ label {
