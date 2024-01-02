@@ -105,13 +105,29 @@ $dark:#000000;
 $theme-colors:map-merge($theme-colors,("dark":$dark));
 
 .movie-cover {
-  transition: 0.3s;
+  transition: 2000s;
   opacity: 0.7;
 }
+
 
 #navbarNavDarkDropdown{margin-left: 40px;}
 
 p{font-size:15px;}
+
+.movie-cover:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.025);
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 768px){
+ .navbar-nav .nav-link {
+    padding-right:0;
+    
+}}
 
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 

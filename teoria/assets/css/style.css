@@ -98,7 +98,7 @@ li {
 }
 
 .movie-cover {
-  transition: 0.3s;
+  transition: 2000s;
   opacity: 0.7;
 }
 
@@ -109,6 +109,17 @@ li {
 p {
   font-size: 15px;
 }
+
+.movie-cover:hover {
+  opacity: 1;
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.025);
+  position: relative;
+  z-index: 1;
+}
+
+
 
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
