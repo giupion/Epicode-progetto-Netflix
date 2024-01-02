@@ -119,8 +119,19 @@ p {
   z-index: 1;
 }
 
+@media (max-width: 834px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+}
 
-
+@media (max-width: 464px) {
+  .btn-group {
+    margin-bottom: 20px !important;
+    
+  }
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
