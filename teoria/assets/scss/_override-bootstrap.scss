@@ -145,11 +145,15 @@ $form-check-transition:                   null;
 $form-check-input-active-filter:          brightness(90%);
 
 $form-check-input-bg:                     $input-bg;
-$form-check-input-border:                 1px solid rgba($black, .25);
+$form-check-input-border:                 1px solid rgba($white, .50);
 $form-check-input-border-radius:          .25em;
 $form-check-radio-border-radius:          50%;
 $form-check-input-focus-border:           $input-focus-border-color;
 $form-check-input-focus-box-shadow:       $input-btn-focus-box-shadow;
+
+$form-check-input-checked-bg-color:$dark;
+$component-active-bg:$dark;
+$component-active-color:$white;
 
 $form-check-input-checked-color:          $component-active-color;
 $form-check-input-checked-bg-color:       $component-active-bg;
