@@ -177,6 +177,14 @@ $form-check-inline-margin-end:    1rem;
 
 .maturity{background-color:rgb(33, 32, 32)}
 
+
+@media (min-width: 768px){
+  .griglia1{display: flex;
+  }}
+
+
+  .email{font-size: 25px;}
+
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 
 
