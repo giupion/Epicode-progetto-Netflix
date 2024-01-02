@@ -129,6 +129,11 @@ p{font-size:15px;}
     padding-left: 0 !important;
 }}
 
+
+@media (min-width: 950px){
+  .griglia1{display: flex;
+    
+  }}
 @import "../../bootstrap-5.3.2/scss/bootstrap.scss";
 
 
